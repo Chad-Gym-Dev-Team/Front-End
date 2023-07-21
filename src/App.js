@@ -3,7 +3,7 @@ import "./App.css";
 import { Navbar } from "./components/navBar";
 import { Home } from "./pages/home";
 import { Cart } from "./pages/cart";
-import { Signin } from "./pages/signin";
+import { Signin } from "./pages/Signin";
 function App() {
   return (
     <div className="App">
