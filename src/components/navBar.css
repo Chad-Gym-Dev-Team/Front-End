@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #003300;
+  background-color: white;
   color: #fff;
   padding: 10px;
 }
@@ -8,8 +8,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .navbar-logo {
@@ -22,9 +23,16 @@
   display: flex;
 }
 
-.navbar-links li {
+.navbar-links button {
   margin-left: 20px;
+  color: black;
+  background-color: white;
+  height: 60px;
+  font-size: 20px;
 }
+
+.navbar-links button:hover {
+  background-color: rgba(0, 0, 0, 0.075);
 
 .navbar-links a {
   text-decoration: none;
@@ -44,22 +52,23 @@
 }
 
 .avatar {
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
-  margin-left: 10px;
+  margin-right: 25px;
 }
 
 .dropdown {
   position: absolute;
-  top: 50px;
-  right: 0;
+  top: 70px;
+  right: 20px;
+  min-width: 80px;
   background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   padding: 10px;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .dropdown a {
@@ -75,13 +84,12 @@
 
 /* Existing styles */
 
-.search-bar input {
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-  outline: none;
-  width: 200px;
-  margin-right: 10px;
+.search-bar {
+  boder: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 230px;
+  height: 30px;
+  padding-left: 20px;
 }
 
 /* Existing styles for the dropdown */

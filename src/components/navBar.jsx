@@ -23,25 +23,29 @@ export const Navbar = () => {
           className="navbar-logo"
         />
         <ul className="navbar-links">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/service">Services</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
+          <Link to="/">
+            <button>Home</button>
+          </Link>
+
+          <Link to="/about">
+            <button>About</button>
+          </Link>
+
+          <Link to="/service">
+            <button>Services</button>
+          </Link>
+
+          <Link to="/contact">
+            <button>Contact</button>
+          </Link>
         </ul>
-        <div className="search-bar">
+        <div>
           <input
             type="text"
             placeholder="Search"
             value={searchValue}
             onChange={handleSearchChange}
+            className="search-bar"
           />
         </div>
         <div className="profile" onClick={handleProfileToggle}>
