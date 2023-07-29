@@ -1,0 +1,98 @@
+.navbar {
+  background-color: white;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.navbar-logo {
+  width: 130px;
+  height: 100px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-links button {
+  margin-left: 20px;
+  color: black;
+  background-color: white;
+  height: 60px;
+  font-size: 20px;
+}
+
+.navbar-links button:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.navbar-links a:hover {
+  color: #ff6600;
+}
+
+/* Existing styles */
+
+.profile {
+  position: relative;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  min-width: 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dropdown a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.dropdown a:hover {
+  background-color: #f4f4f4;
+}
+
+/* Existing styles */
+
+.search-bar {
+  boder: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 230px;
+  height: 30px;
+  padding-left: 20px;
+}
+
+/* Existing styles for the dropdown */
+
+/* Dropdown styles */
